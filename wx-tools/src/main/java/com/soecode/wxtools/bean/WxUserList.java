@@ -236,6 +236,11 @@ public class WxUserList{
 			public WxUserGet() {
 
 			}
+
+			public WxUserGet(String openid) {
+				super();
+				this.openid = openid;
+			}
 			
 			public WxUserGet(String openid, String lang) {
 				super();
